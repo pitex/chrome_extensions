@@ -1,0 +1,33 @@
+{
+  "author": "Michael Baker",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false,
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bitbucket.org/*/pull-requests/*/diff"],
+      "js": ["content_script.js"],
+    }
+  ],
+  "homepage_url": "https://github.com/pitex/chrome_extensions/bitbucket_diff",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png",
+  },
+  "manifest_version": 2,
+  "name": "com.github.pitex.chrome_extensions.bitbucket_diff",
+  "page_action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+    },
+    "default_title": "Bitbucket Diff Helper",
+  },
+  "permissions": [
+    "declarativeContent",
+  ],
+  "version": "1.0",
+}
