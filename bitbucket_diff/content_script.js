@@ -60,10 +60,3 @@ for (const commitFilesSummary of commitFilesSummaries) {
     commitFilesSummary.hidden = true;
   }
 }
-
-const tryAgainElements = document.querySelectorAll('a.load-diff.try-again');
-for (const tryAgainElement of tryAgainElements) {
-  if (tryAgainElement.hidden) {
-    tryAgainElement.click();
-  }
-}

@@ -8,7 +8,7 @@
     {
       "matches": [
         "https://bitbucket.org/*/pull-requests/*/diff",
-        "https://bitbucket.org/*/commits/*",
+        "https://bitbucket.org/*/commits/*"
       ],
       "js": ["content_script.js"]
     }
