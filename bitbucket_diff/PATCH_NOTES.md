@@ -3,14 +3,15 @@
 1. Filtering out summary of files
 2. Filtering out file diffs
 3. Reloading failed file diffs
-4. Supported file extensions:
-   1. .ai
-   2. .anim
-   3. .asset
-   4. .controller
-   5. .eps
-   6. .jpg
-   7. .meta
-   8. .png
-   9. .prefab
-   10. .unity
+
+## Supported file extensions:
+- .ai
+- .anim
+- .asset
+- .controller
+- .eps
+- .jpg
+- .meta
+- .png
+- .prefab
+- .unity
